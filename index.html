@@ -130,8 +130,10 @@
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-           day12-34  【12】说说你对css盒子模型的理解
- css盒模型由两个盒子组成，外在的控制是否换行的盒子，以及内在的控制元素内容的盒子。比如：display: inline-block, 则它的外在的盒子就是inline也就是不占据一行，而block则表示内部的元素具有块状特性。所以，display: inline其实就是display: inline-inline的缩写，display: block就是display: block-block的缩写。 每一个内在的盒子有: width/height, padding, border, margin这几个控制盒子大小的属性。其中 width/height控制元素内容大小，padding则控制元素内容到border线内侧距离，border则是元素外围边框大小，而margin则是控制与其他元素的间距，它的背景透明。 对于早期，计算一个元素的占据大小，需要通过width +2* padding + 2*border来计算，css3中提出了box-sizing：border-box，通过这样设置，就可以使元素最终的宽高就是设定的width/height, 浏览器会根据width/height, padding, border的大小来自动调整内部元素的大小。   
+          快乐数 题目描述 「快乐数」定义为：对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和，然后重复这个过程直到这个数变为 1，也可能是无限循环但始终变不到1。如果可以变为 1，那么这个数就是快乐数。
+测试用例 输入：19 输出：true 解释： 12 + 92 = 82 82 + 22 = 68 62 + 82 = 100 12 + 02 + 02 = 1  方法解析 对于一个输入的数，在进行若干次循环后，我们猜测结果会出现以下三种可能：
+ 最终会得到 1。 最终会进入循环。 值会越来越大，最后接近无穷大。  第一二种都比较好理解，以19为例在进行几轮计算后达到值为1；以116为例，进行几轮计算值达到58时会进入循环。
+唯有第三种，永远不会发生数字变为无限大而不停的增大下去。原因如下： | Digits | Largest | Next | | :&mdash;-: | :&mdash;&mdash;&mdash;&ndash;: | :&mdash;: | | 1 | 9 | 81 | | 2 | 99 | 162 | | 3 | 999 | 243 | | 4 | 9999 | 324 | | 13 | 9999999999999 | 1053 |
         </div>
           <a href="http://example.org/posts/my-first-blog/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
