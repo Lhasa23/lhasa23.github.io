@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experimental Blog Site</title>
-    <link>http://example.org/</link>
+    <link>http://lhasa23.github.io/</link>
     <description>Recent content on Experimental Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Apr 2020 17:52:37 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lhasa23.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Blog</title>
-      <link>http://example.org/posts/my-first-blog/</link>
+      <link>http://lhasa23.github.io/posts/my-first-blog/</link>
       <pubDate>Thu, 30 Apr 2020 17:52:37 +0800</pubDate>
       
-      <guid>http://example.org/posts/my-first-blog/</guid>
+      <guid>http://lhasa23.github.io/posts/my-first-blog/</guid>
       <description>快乐数 题目描述 「快乐数」定义为：对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和，然后重复这个过程直到这个数变为 1，也可能是无限循环但始终变不到1。如果可以变为 1，那么这个数就是快乐数。
 测试用例 输入：19 输出：true 解释： 12 + 92 = 82 82 + 22 = 68 62 + 82 = 100 12 + 02 + 02 = 1  方法解析 对于一个输入的数，在进行若干次循环后，我们猜测结果会出现以下三种可能：
  最终会得到 1。 最终会进入循环。 值会越来越大，最后接近无穷大。  第一二种都比较好理解，以19为例在进行几轮计算后达到值为1；以116为例，进行几轮计算值达到58时会进入循环。
